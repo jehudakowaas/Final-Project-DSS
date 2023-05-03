@@ -12,7 +12,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Dashboard</a>
+            <a class="navbar-brand" href="#">Dashboard Visualisasi</a>
             
             <!-- Navbar Toggler -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -23,10 +23,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Dashboard</a>
+                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link active" href="#">Dashboard</a>
                     </li>
                 </ul>
             </div>
@@ -47,8 +47,8 @@
             </div>
             <div class="col-lg-9">
                 <!-- Welcome Message -->
-                <h2 class="mb-4">Welcome to the group 8 Dashboard!</h2>
-                <p class="lead">Hasil Analysis MOLAP dari data Bank - Descriptive, Diagnostic, Predictive, Prescriptive </p>
+                <h2 class="mb-4">Kelompok 7</h2>
+                <p class="lead">Visualisasi MOLAP dari data Bank - Descriptive, Diagnostic, Predictive </p>
 
                 <!-- Card Deck -->
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
@@ -58,10 +58,7 @@
                             <div class="card-body">
                                 <h5 class="card-title mb-0">Analysis descriptive</h5>
                                 <img src="descriptive.png" alt="Traffic Chart" class="img-fluid my-2">
-                                <img src="meanbyjob.png" alt="Traffic Chart" class="img-fluid my-2">
-                                <img src="meanpday.png" alt="Traffic Chart" class="img-fluid my-2">
-                                <img src="meanprevious.png" alt="Traffic Chart" class="img-fluid my-2">
-                                <img src="poutcome.png" alt="Traffic Chart" class="img-fluid my-2">
+                                <img src="des predicted.png" alt="Traffic Chart" class="img-fluid my-2">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <span style="text-align: justify; display: inline-block; width: 100%; font-size: 1.6rem; font-family: sans-serif;">Graphik ini Menghasilkan serangkaian grafik batang yang menunjukkan rata-rata kolom numerik dalam data yang dikelompokkan berdasarkan pekerjaan. Setiap grafik menampilkan pekerjaan di sumbu x dan nilai rata-rata kolom numerik yang bersangkutan di sumbu y. Grafik-grafik ini membantu Anda memahami bagaimana nilai rata-rata dari setiap kolom numerik bervariasi di antara kelompok pekerjaan yang berbeda dalam konteks kampanye pemasaran.</span>
                                     <span class="text-success"><i class="bi bi-arrow-up"></i></span>
@@ -76,7 +73,11 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title mb-0">Analysis Diagnostic</h5>
-                                    <img src="diagnostic.png" alt="Traffic Chart" class="img-fluid my-2">
+                                    <img src="diagnosis1.png" alt="Traffic Chart" class="img-fluid my-2">
+                                    <img src="diagnosis2.png" alt="Traffic Chart" class="img-fluid my-2">
+                                    <img src="diagnosis3 prediction.png" alt="Traffic Chart" class="img-fluid my-2">
+                                    <img src="diagnosis4.png" alt="Traffic Chart" class="img-fluid my-2">
+                                    <img src="diagnosis5.png" alt="Traffic Chart" class="img-fluid my-2">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <span style="text-align: justify; display: inline-block; width: 100%; font-size: 1.2rem; font-family: sans-serif;">Grafik ini menghasilkan grafik batang yang menampilkan koefisien dari model regresi logistik yang telah dilatih untuk memprediksi respons pelanggan terhadap kampanye pemasaran. Dalam konteks dashboard, grafik ini memungkinkan pengguna untuk dengan cepat memahami fitur mana yang memiliki pengaruh positif atau negatif terhadap hasil prediksi. Panjang batang menunjukkan kekuatan pengaruh fitur tersebut, dengan batang positif menunjukkan hubungan positif dan batang negatif menunjukkan hubungan negatif. Grafik ini membantu pengguna untuk mengidentifikasi fitur penting dan menggali wawasan tentang bagaimana fitur-fitur ini mempengaruhi respons pelanggan terhadap kampanye pemasaran.</span>
                                     <span class="text-success"><i class="bi bi-arrow-up"></i></span>
@@ -85,31 +86,6 @@
                         </div>
                     </div>
 
-                    <div class="col" style="width: 48rem; height: 48rem;">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0">Analysis Predictive</h5>
-                                    <img src="Predictive.png" alt="Traffic Chart" class="img-fluid my-2">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <span style="text-align: justify; display: inline-block; width: 100%; font-size: 0.9rem; font-family: sans-serif;">Grafik ini menghasilkan heatmap matriks kebingungan yang menampilkan kinerja model pohon keputusan dalam mengklasifikasikan respons pelanggan terhadap kampanye pemasaran. Dalam heatmap, sumbu y merepresentasikan kelas aktual, dan sumbu x merepresentasikan kelas yang diprediksi. Setiap kotak menunjukkan jumlah pengamatan yang diklasifikasikan ke dalam kombinasi kelas aktual dan prediksi tertentu, dengan warna yang mencerminkan frekuensi pengamatan tersebut. Heatmap ini memungkinkan pengguna dashboard untuk dengan cepat mengevaluasi seberapa baik model mengklasifikasikan respons pelanggan serta mengidentifikasi area di mana kinerja model mungkin kurang optimal.</span>
-                                    <span class="text-success"><i class="bi bi-arrow-up"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col" style="width: 48rem; height: 48rem;">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0">Analysis Prescriptive</h5>
-                                    <img src="Prescriptive.png" alt="Traffic Chart" class="img-fluid my-2">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <span style="text-align: justify; display: inline-block; width: 100%; font-size: 1.1rem; font-family: sans-serif;">Grafik ini menggambarkan kepentingan fitur dalam model pohon keputusan yang digunakan untuk mengklasifikasikan respons pelanggan terhadap kampanye pemasaran. Tinggi batang menunjukkan kepentingan relatif fitur tersebut dalam membuat keputusan oleh model. Fitur yang lebih penting memiliki batang yang lebih tinggi, sedangkan fitur yang kurang penting memiliki batang yang lebih pendek. Plot ini membantu pengguna dashboard untuk mengidentifikasi fitur-fitur yang paling berkontribusi terhadap keberhasilan model dalam mengklasifikasikan respons pelanggan. Dengan demikian, pengguna dapat lebih memahami faktor-faktor yang berpengaruh dalam prediksi respons kampanye pemasaran dan mengoptimalkan strategi mereka sesuai dengan informasi ini.</span>
-                                    <span class="text-success"><i class="bi bi-arrow-up"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
 
                    
